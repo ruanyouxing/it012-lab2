@@ -78,43 +78,41 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(500,160)" to="(580,160)"/>
     <wire from="(640,340)" to="(770,340)"/>
     <wire from="(290,380)" to="(290,570)"/>
-    <comp lib="6" loc="(778,447)" name="Text">
-      <a name="text" val="Cout"/>
+    <comp lib="1" loc="(490,160)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(730,470)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(584,595)" name="Text">
+      <a name="text" val="2"/>
       <a name="font" val="SansSerif bold 18"/>
     </comp>
-    <comp lib="0" loc="(770,470)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
+    <comp lib="6" loc="(777,311)" name="Text">
+      <a name="text" val="S"/>
+      <a name="font" val="SansSerif bold 18"/>
     </comp>
+    <comp lib="1" loc="(580,550)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(120,230)" name="Pin"/>
+    <comp lib="0" loc="(120,100)" name="Pin"/>
     <comp lib="6" loc="(75,110)" name="Text">
       <a name="text" val="A"/>
       <a name="font" val="SansSerif bold 18"/>
     </comp>
-    <comp lib="1" loc="(730,470)" name="OR Gate">
-      <a name="inputs" val="2"/>
+    <comp lib="6" loc="(385,489)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 18"/>
     </comp>
     <comp lib="6" loc="(67,387)" name="Text">
       <a name="text" val="Cin"/>
       <a name="font" val="SansSerif bold 18"/>
     </comp>
-    <comp lib="0" loc="(120,230)" name="Pin"/>
-    <comp lib="1" loc="(380,450)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(580,550)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(490,160)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
+    <comp lib="0" loc="(120,380)" name="Pin"/>
     <comp lib="1" loc="(640,340)" name="XOR Gate">
       <a name="inputs" val="2"/>
       <a name="xor" val="odd"/>
-    </comp>
-    <comp lib="6" loc="(777,311)" name="Text">
-      <a name="text" val="S"/>
-      <a name="font" val="SansSerif bold 18"/>
     </comp>
     <comp lib="0" loc="(770,340)" name="Pin">
       <a name="facing" val="west"/>
@@ -125,15 +123,17 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="text" val="B"/>
       <a name="font" val="SansSerif bold 18"/>
     </comp>
-    <comp lib="0" loc="(120,100)" name="Pin"/>
-    <comp lib="6" loc="(584,595)" name="Text">
-      <a name="text" val="2"/>
+    <comp lib="1" loc="(380,450)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(778,447)" name="Text">
+      <a name="text" val="Cout"/>
       <a name="font" val="SansSerif bold 18"/>
     </comp>
-    <comp lib="0" loc="(120,380)" name="Pin"/>
-    <comp lib="6" loc="(385,489)" name="Text">
-      <a name="text" val="1"/>
-      <a name="font" val="SansSerif bold 18"/>
+    <comp lib="0" loc="(770,470)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
     </comp>
   </circuit>
 </project>
